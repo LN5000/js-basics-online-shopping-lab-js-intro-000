@@ -75,5 +75,6 @@ function placeOrder(cardNumber) {
   } else {
     message = "Sorry, we don\'t have a credit card on file for you.";
   }
+  cart = []
   return message;
   }
